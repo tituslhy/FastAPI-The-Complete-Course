@@ -16,6 +16,11 @@ class CollegeStudent(Student):
         self.major = major
 
     def greetings(self):
+        """Class method overriding class method of the same name for the parent class.
+
+        Returns:
+            string: string of student's first name and declaring that the student is a college student.
+        """
         return f"{self.first_name} is a college student!"
 
 
